@@ -1,0 +1,21 @@
+{
+  "name": "marspress/wp-login-skin",
+  "description": "Utility package to create a simple skin for the wp-login.php in WordPress.",
+  "type": "library",
+  "license": "GPL-2.0",
+  "autoload": {
+    "psr-4": {
+      "MarsPress\\LoginSkin\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MARSWorks Inc",
+      "email": "wordpress@marsworks.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4"
+  }
+}
